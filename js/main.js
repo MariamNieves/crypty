@@ -4,8 +4,6 @@ $(document).ready(function () {
 
     function imprimirResultado(traduccion) {
         let resultado = document.getElementById('resultado');
-        let vacio = document.createTextNode('')
-        resultado.appendChild(vacio);
         let contenido = document.createTextNode(traduccion);
         resultado.replaceChildren(contenido);
     }
